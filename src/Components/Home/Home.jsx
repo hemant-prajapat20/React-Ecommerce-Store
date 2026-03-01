@@ -6,6 +6,7 @@ import Cart from '../Cart/Cart'
 import Whishlist from '../Wishlist/Wishlist'
 import OrderSummary from '../OrderSummary/OrderSummary'
 import OrderPlace from '../OrderPlace/OrderPlace'
+import Footer from '../Footer/Footer'
 
 const Home = ()=>{
  
@@ -178,6 +179,8 @@ const Home = ()=>{
      setOrderPlaced={setOrderPlaced}
      />
      }
+
+     <Footer />
 
     </div>
   )
