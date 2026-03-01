@@ -18,21 +18,21 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-zinc-900 mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-white cursor-pointer">Home</li>
-            <li className="hover:text-white cursor-pointer">Products</li>
-            <li className="hover:text-white cursor-pointer">Categories</li>
-            <li className="hover:text-white cursor-pointer">Offers</li>
+            <li className="hover:text-gray-600 cursor-pointer">Home</li>
+            <li className="hover:text-gray-600 cursor-pointer">Products</li>
+            <li className="hover:text-gray-600 cursor-pointer">Categories</li>
+            <li className="hover:text-gray-600 cursor-pointer">Offers</li>
           </ul>
         </div>
 
         {/* Customer Service */}
         <div>
-          <h3 className="text-lg font-semibold text-zinc-900 mb-4">Support</h3>
+          <h3 className="text-lg font-semibold text-zinc-800 mb-4">Support</h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-white cursor-pointer">Contact Us</li>
-            <li className="hover:text-white cursor-pointer">Shipping Policy</li>
-            <li className="hover:text-white cursor-pointer">Return Policy</li>
-            <li className="hover:text-white cursor-pointer">FAQ</li>
+            <li className="hover:text-gray-600 cursor-pointer">Contact Us</li>
+            <li className="hover:text-gray-600 cursor-pointer">Shipping Policy</li>
+            <li className="hover:text-gray-600 cursor6pointer">Return Policy</li>
+            <li className="hover:text-gray-600 cursor-pointer">FAQ</li>
           </ul>
         </div>
 
